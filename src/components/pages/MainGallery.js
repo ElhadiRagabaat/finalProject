@@ -30,7 +30,7 @@ function MainGallery() {
 
     return (
         <>
-
+<div>Hello this is appbar</div>
             {isLoading && <div style={{marginTop:"20px", fontWeight:"bolder",color:"pink",fontSize:"20px"}}>  Loading  now  ............</div>}
             <Masonry
 
@@ -48,6 +48,7 @@ function MainGallery() {
                     </div>
                 })}
             </Masonry>
+            <div>Hey I am a div</div>
         </>
     )
 }
