@@ -1,0 +1,18 @@
+.imageHedre{
+    max-width: 1500px;
+    backdrop-filter: blur(200px);
+    margin-top: 1px;
+    z-index: -10;
+    overflow: hidden;
+    opacity: 1;
+
+}
+.imageHedre img{
+    width: 1400px;
+    backdrop-filter: blur(25px);
+    object-fit: cover;
+    max-height: 100px;
+    margin-left: 20px;
+    
+    
+}

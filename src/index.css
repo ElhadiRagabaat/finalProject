@@ -4,6 +4,7 @@
 *{
   margin: 0px;
   padding: 0px;
+
 }
 
 
@@ -14,8 +15,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
+  background-image: url("https://globetrender.com/wp-content/uploads/2020/05/Caribbean-beach.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+  z-index: -10;
+  
 }
+/* background: radial-gradient(circle,rgb(184 153 177 / 13%)0%,rgb(191 188 193 / 49%)10%); */ 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -25,7 +34,7 @@ code {
   display: -webkit-box; /* Not needed if autoprefixing */
   display: -ms-flexbox; /* Not needed if autoprefixing */
   display: flex;
-  margin-left: -30px; /* gutter size offset */
+  margin-left: -10px; /* gutter size offset */
   width: auto;
 }
 .my-masonry-grid_column {
@@ -86,4 +95,63 @@ code {
 }
 .pics img{
   cursor: pointer;
+}
+.cardContainer{
+  border-radius: 5px  black solid;
+/* 
+  z-index: 1; */
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container1{
+  width: 100%;
+  padding:60px 60px;
+  position:-webkit-sticky;
+  bottom: -10;
+  
+  background: radial-gradient(circle,rgb(184 153 177 / 13%)0%,rgb(191 188 193 / 49%)10%); 
+}
+.column{
+  display:flex;
+  margin-left: 40px;
+  margin-right: 80px;
+  flex-direction:column;
+  text-align: left;
+  
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+}
+.link{
+  color: #fff;
+  margin-bottom: 2px;
+  font-size: 18px;
+  text-decoration: none;
+
+  
+}
+.title{
+  color: palevioletred;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.iconsBackround{
+
+  size: 100px;
+}
+@media screen and (max-width:768px){
+  .row{
+  display: inline-block;
+  width: 100%;
+
+  }
+}
+ span{
+  color: black;
 }

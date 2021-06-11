@@ -7,10 +7,11 @@
   text-align: center;
 } */
 .App{
-  margin-top: 10px;
   align-items: center;
   justify-self: center;
   text-align: center;
+  width: 100%;
+  margin-top: 100px;
 }
 
 /* .App {

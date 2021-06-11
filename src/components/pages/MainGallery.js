@@ -3,6 +3,8 @@ import { useState } from 'react'
 import { db } from '../firebase'
 import Masonry from 'react-masonry-css'
 import ImageContainer from '../ImageContainer'
+import { FooterContainer } from '../../container/FooterContainer'
+
 
 const breakpointColumnsObj = {
     default: 4,
@@ -48,6 +50,7 @@ function MainGallery() {
                     </div>
                 })}
             </Masonry>
+            <FooterContainer/>
         </>
     )
 }

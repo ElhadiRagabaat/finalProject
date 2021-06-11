@@ -9,8 +9,7 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-import DeleteIcon from '@material-ui/icons/Delete';
-import { Avatar } from '@material-ui/core';
+
 
 
 
@@ -74,9 +73,9 @@ function BookingList() {
 
     }, [posts])
 
-    const handleDelet = (id) => {
-        db.collection("Bookin").doc(id).delete()
-    }
+    // const handleDelet = (id) => {
+    //     db.collection("Bookin").doc(id).delete()
+    // }
 
     return (
 
