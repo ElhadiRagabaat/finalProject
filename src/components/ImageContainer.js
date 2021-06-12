@@ -36,7 +36,7 @@ function ImageContainer({ id, post, photoUrl }) {
             </div>
             <Container>
                 
-                <Card elevation={3} style={{ width: "100%",marginTop:"1px" }}>
+                <Card elevation={2} style={{ width: "100%",marginTop:"1px" }}>
                     <CardHeader
 
                         subheader={post}
@@ -45,13 +45,7 @@ function ImageContainer({ id, post, photoUrl }) {
                             onClick={() => getImg(photoUrl)}
                         />
                     </div>
-                    {/* <CardActions>
-                        <Button variant="contained" color="primary"
-                            onClick={() => history.push("/booking")}
-                            style={{ margin: "0 auto" }}>
-                            Booking
-      </Button>
-                    </CardActions> */}
+                   
 
                 </Card>
             </Container>
